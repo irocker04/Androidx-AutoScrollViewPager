@@ -2,8 +2,6 @@ apply plugin: 'com.novoda.bintray-release'
 apply plugin: 'com.android.library'
 
 publish {
-    //gradlew clean build bintrayUpload -PbintrayUser=irocker04 -PbintrayKey=1757b5f7014fb597168473773bce06aaee5e1a51 -PdryRun=false
-
     userOrg = 'irocker04'
     repoName = 'androidx.modules'
     groupId = 'com.github.irocker04'
